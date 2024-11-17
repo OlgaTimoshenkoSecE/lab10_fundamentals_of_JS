@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+            currencies
+        </title>
+        <style>
+            *{
+                font-family: monospace;
+            }
+            body{
+                background-color:aliceblue;
+            }
+            table{
+                display: none;
+                border-collapse: collapse;
+                max-width: fit-content; 
+                margin-left: auto;
+                margin-right: auto;
+            }
+            td, th{
+                border: 0.2em solid black;
+                padding: 0.2em;
+                text-align: center;
+            }
+            button{
+                display: block;
+                max-width: fit-content;
+                margin-top: 3em;
+                margin-bottom: 3em;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: darkblue;
+                color: aliceblue;
+                height: 4em;
+            }
+        </style>
+    </head>
+    <body>
+        <button type="button" id="loadData" onclick="getData()">show currencies</button>
+        <table id="table">
+            <tr>
+                <th> ID </th>
+                <th> name </th>
+                <th> min size </th>
+            </tr>
+        </table>
+        <script src="lab10.js"></script>
+    </body>
+</html>
